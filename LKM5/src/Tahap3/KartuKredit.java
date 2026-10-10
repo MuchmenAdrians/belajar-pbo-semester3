@@ -1,10 +1,8 @@
 package Tahap3;
 
-class KartuKredit extends Pembayaran
-{
+public class KartuKredit extends Pembayaran {
     @Override
-    public void prosesPembayaran()
-    {
-        System.out.println("Pembayaran Kartu Kredit diproses...");
+    public void prosesPembayaran() {
+        System.out.println("Pembayaran kartu kredit diproses...");
     }
 }
